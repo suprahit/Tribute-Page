@@ -1,0 +1,140 @@
+* {
+    font-family: system-ui, "Segoe UI", Roboto, Heveltica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: whitesmoke;
+    overflow-wrap: wrap;
+}
+
+body {
+    background: rgb(240,87,118);
+    background: linear-gradient(45deg, rgba(240,87,118,1) 0%, rgba(140,47,167,1) 50%, rgba(143,191,254,1) 100%);
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+a {
+    color: #b8d0eb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8292a5;
+    cursor: pointer;
+
+}
+
+#title {
+    font-family: 'EB Garamond', system-ui, "Segoe UI", Roboto, Heveltica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 3em;
+}
+
+.patch-note {
+    padding: 0 20%;
+}
+
+.patch-note img {
+    max-width: 20px;
+    max-height: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: gray;
+}
+
+.patch-note li {
+    margin: 5px 0;
+}
+
+.patch-note > ul > li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.patch-note > ul {
+    margin: 10px 0 0px;
+}
+
+img {
+    display: block;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-caption {
+    font-style: italic;
+    font-size: 2em;
+    font-family: 'Qwigley', system-ui, "Segoe UI", Roboto, Heveltica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+}
+
+#img-div {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    width: 100%;
+    background-color: #4b0f54;
+    text-align: center;
+}
+
+#tribute-info {
+    background-color: #4b0f54;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 1% 0;
+}
+
+.attack-speed {
+    color: #ff4500;
+    font-weight: bold;
+}
+
+.AD {
+    color: #ffa500;
+    font-weight: bold;
+}
+
+.health {
+    color: #158e5c;
+    font-weight: bold;
+}
+
+.critical-damage {
+    color: #944b00;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: #62106c;
+    width: 100%;
+    padding: 10px 0;
+}
+
+@media (max-width: 640px) {
+    .patch-note {
+        padding: 0;
+    }
+  }
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .patch-note {
+        padding: 0 5%;
+    }
+}
